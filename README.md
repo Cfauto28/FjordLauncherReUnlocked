@@ -1,6 +1,6 @@
 # <img src="./program_info/org.unmojang.FjordLauncher.svg" alt="Fjord Launcher logo" width="96"/> Fjord Launcher Unlocked
 
-Fjord Launcher Unlocked is a **fork** of Fjord Launcher, which is a fork of Prism Launcher. It is **not** endorsed by nor affiliated with Fjord Launcher or Prism Launcher.
+Fjord Launcher ReUnlocked is a **fork** of Fjord Launcher Unlocked, which is a fork of Fjord Launcher, which is a fork of Prism Launcher. It is **not** endorsed by nor affiliated with Fjord Launcher or Prism Launcher.
 
 ## Advantages of this fork over Prism Launcher
 
@@ -16,60 +16,16 @@ Fjord Launcher Unlocked is a **fork** of Fjord Launcher, which is a fork of Pris
 
 ### Windows
 
-#### [Scoop](https://scoop.sh) (recommended)
-
-```PowerShell
-scoop bucket add hero-persson https://github.com/hero-persson/scoop-unmojang
-scoop install hero-persson/fjordlauncher
-```
-
-#### Windows (Manual)
-
-You can get installers or portable builds from the [releases section](https://github.com/hero-persson/FjordLauncherUnlocked/releases/latest), MSVC builds are recommended over MinGW builds, but there's no real difference.
+You can get installers or portable builds from the [releases section](https://github.com/Cfauto28/test-mine-java-launcher/releases/latest), MSVC builds are recommended over MinGW builds, but there's no real difference.
 
 ### macOS
 
-#### [Homebrew](https://brew.sh) (recommended)
+There are builds for macOS in the [releases section](https://github.com/Cfauto28/test-mine-java-launcher/releases/latest).
 
-```Shell
-brew tap hero-persson/homebrew-unmojang
-brew install --cask fjordlauncher
-```
 
-#### macOS (Manual)
+### Linux
 
-There are builds for macOS in the [releases section](https://github.com/hero-persson/FjordLauncherUnlocked/releases/latest).
-
-### Flatpak
-
-```Shell
-flatpak remote-add --user --if-not-exists hero-persson https://hero-persson.github.io/unmojang-flatpak/index.flatpakrepo
-flatpak install org.unmojang.FjordLauncher
-```
-
-### Nix
-
-This repository contains a Nix flake:
-
-```Shell
-nix run github:hero-persson/FjordLauncherUnlocked
-```
-
-See [nix/README.md](nix/README.md) for details.
-
-### Gentoo
-
-Install from the [unmojang overlay](https://github.com/unmojang/unmojang-overlay):
-
-```Shell
-eselect repository enable unmojang-overlay
-emaint sync -r unmojang-overlay
-emerge -av games-action/fjordlauncher
-```
-
-### Other Linux
-
-AppImages are available in the [releases section](https://github.com/hero-persson/FjordLauncherUnlocked/releases/latest).
+AppImages are available in the [releases section](https://github.com/Cfauto28/test-mine-java-launcher/releases/latest).
 
 ## Building
 
