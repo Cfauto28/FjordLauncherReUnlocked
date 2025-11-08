@@ -16,16 +16,16 @@ Fjord Launcher ReUnlocked is a **fork** of Fjord Launcher Unlocked, which is a f
 
 ### Windows
 
-You can get installers or portable builds from the [releases section](https://github.com/Cfauto28/test-mine-java-launcher/releases/latest), MSVC builds are recommended over MinGW builds, but there's no real difference.
+You can get installers or portable builds from the [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest), MinGW builds are builds for amd64 platforms and MSVC builds are for the arm64 platform. (MSVC amd64 are only available as Debug builds)
 
 ### macOS
 
-There are builds for macOS in the [releases section](https://github.com/Cfauto28/test-mine-java-launcher/releases/latest).
+There are builds for macOS in the [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest).
 
 
 ### Linux
 
-AppImages are available in the [releases section](https://github.com/Cfauto28/test-mine-java-launcher/releases/latest).
+AppImages and Portable builds are available in the [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest).
 
 ## Building
 
