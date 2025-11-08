@@ -5,6 +5,7 @@ Thumbs.db
 resources/CMakeFiles
 *~
 *.swp
+*.kate-swp
 html/
 
 # Project Files

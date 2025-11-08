@@ -132,7 +132,7 @@ if ((CMAKE_BUILD_TYPE STREQUAL "Debug" OR CMAKE_BUILD_TYPE STREQUAL "RelWithDebI
 endif()
 
 
-option(ENABLE_LTO "Enable Link Time Optimization" off)
+option(ENABLE_LTO "Enable Link Time Optimization" on)
 
 if(ENABLE_LTO)
     include(CheckIPOSupported)
@@ -232,13 +232,6 @@ set(Launcher_QT_VERSION_MAJOR "6" CACHE STRING "Major Qt version to build agains
 
 # Java downloader
 set(Launcher_ENABLE_JAVA_DOWNLOADER_DEFAULT ON)
-
-# Although we recommend enabling this, we cannot guarantee binary compatibility on
-# differing Linux/BSD/etc distributions. Downstream packagers should be explicitly opt-ing into this
-# feature if they know it will work with their distribution.
-if(UNIX AND NOT APPLE)
-  set(Launcher_ENABLE_JAVA_DOWNLOADER_DEFAULT OFF)
-endif()
 
 # Java downloader
 option(Launcher_ENABLE_JAVA_DOWNLOADER "Build the java downloader feature" ${Launcher_ENABLE_JAVA_DOWNLOADER_DEFAULT})
