@@ -75,19 +75,6 @@ jobs:
             vcvars_arch: "amd64_x86"
 
           - os: windows-2022
-            name: "Windows-MSVC"
-            msystem: ""
-            architecture: "x64"
-            vcvars_arch: "amd64"
-            qt_ver: 6
-            qt_host: "windows"
-            qt_arch: "win64_msvc2022_64"
-            qt_version: "6.8.1"
-            qt_modules: "qt5compat qtimageformats qtnetworkauth"
-            nscurl_tag: "v24.9.26.122"
-            nscurl_sha256: "AEE6C4BE3CB6455858E9C1EE4B3AFE0DB9960FA03FE99CCDEDC28390D57CCBB0"
-
-          - os: windows-2022
             name: "Windows-MSVC-arm64"
             msystem: ""
             architecture: "arm64"
@@ -243,7 +230,7 @@ jobs:
           tools: ${{ matrix.qt_tools }}
           cache: ${{ inputs.is_qt_cached }}
 
-      - name: Install MSVC (Windows MSVC)
+      - name: Install MSVC (Windows)
         if: runner.os == 'Windows' # We want this for MinGW builds as well, as we need SignTool
         uses: ilammy/msvc-dev-cmd@v1
         with:

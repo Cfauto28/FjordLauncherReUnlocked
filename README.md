@@ -16,7 +16,7 @@ Fjord Launcher ReUnlocked is a **fork** of Fjord Launcher Unlocked, which is a f
 
 ### Windows
 
-You can get installers or portable builds from the [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest), MinGW builds are builds for amd64 platforms and MSVC builds are for the arm64 platform. (MSVC amd64 are only available as Debug builds)
+You can get installers or portable builds from the [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest), MinGW builds are builds for amd64 platforms and MSVC builds are for the arm64 platform.
 
 ### macOS
 
