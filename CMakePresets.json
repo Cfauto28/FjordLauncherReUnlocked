@@ -8,6 +8,6 @@
 	"include": [
 		"cmake/linuxPreset.json",
 		"cmake/macosPreset.json",
-		"cmake/windowsMinGWPreset.json",
+		"cmake/windowsMinGWPreset.json"
 	]
 }
