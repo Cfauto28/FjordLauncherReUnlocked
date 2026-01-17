@@ -4,6 +4,8 @@ Fjord Launcher ReUnlocked is a **fork** of Fjord Launcher Unlocked, which is a f
 
 ## Advantages of this fork over Prism Launcher
 
+- No DRM
+
 - [Support for alternative auth servers](doc/alternative-auth-servers.md)
 
 - Ability to download FTB modpacks from within the launcher
@@ -15,9 +17,7 @@ Fjord Launcher ReUnlocked is a **fork** of Fjord Launcher Unlocked, which is a f
 
 ## Building
 
-To build the launcher yourself, follow the instructions on the Prism Launcher website, but clone this repo instead:
-
-- [Here](https://prismlauncher.org/wiki/development/build-instructions/)
+To build the launcher yourself, follow the [instructions on the Prism Launcher website](https://prismlauncher.org/wiki/development/build-instructions), but clone this repo instead.
 
 ## Notes
 
