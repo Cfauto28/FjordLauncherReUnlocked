@@ -219,8 +219,6 @@ set(Launcher_QT_VERSION_MAJOR "6" CACHE STRING "Major Qt version to build agains
 
 # Java downloader
 set(Launcher_ENABLE_JAVA_DOWNLOADER_DEFAULT ON)
-
-# Java downloader
 option(Launcher_ENABLE_JAVA_DOWNLOADER "Build the java downloader feature" ${Launcher_ENABLE_JAVA_DOWNLOADER_DEFAULT})
 
 # Native libraries
