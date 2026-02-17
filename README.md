@@ -12,7 +12,7 @@ Fjord Launcher ReUnlocked is a **fork** of Fjord Launcher Unlocked, which is a f
 
 ## Having a problem with the launcher?
 
-**Do not** open an issue in the Prism Launcher repo, and **do not** ask about Fjord Launcher in the Prism Launcher Discord server. Instead, ask in #fjord-launcher in their [Matrix space](https://matrix.to/#/#unmojang:matrix.org), or open an issue [here](https://github.com/unmojang/FjordLauncher/issues).
+**Do not** open an issue in the Prism Launcher repo, and **do not** ask about Fjord Launcher in the Prism Launcher Discord server. Instead, ask in #fjord-launcher in our [Matrix space](https://matrix.to/#/#unmojang:matrix.org), or [open an issue](https://github.com/Cfauto28/FjordLauncherReUnlocked/issues), in this repository.
 
 ## Building
 
