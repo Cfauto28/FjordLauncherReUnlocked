@@ -10,6 +10,12 @@ jobs:
   build_release:
     name: Build Release
     uses: ./.github/workflows/build.yml
+    permissions:
+      contents: read
+      # Required for Azure Trusted Signing
+      id-token: write
+      # Required for vcpkg binary cache
+      packages: write
     with:
       build-type: Release
       environment: Release
@@ -111,5 +117,4 @@ jobs:
             FjordLauncher-Windows-MSVC-${{ env.VERSION }}.zip
             FjordLauncher-Windows-MSVC-Portable-${{ env.VERSION }}.zip
             FjordLauncher-Windows-MSVC-Setup-${{ env.VERSION }}.exe
-            FjordLauncher-macOS-${{ env.VERSION }}.zip
             FjordLauncher-${{ env.VERSION }}.tar.gz
