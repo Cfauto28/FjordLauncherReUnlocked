@@ -164,8 +164,7 @@ jobs:
 
       - name: Run build
         run: |
-          cmake --build --preset "$CMAKE_PRESET" --config "$BUILD_TYPE"
-
+          cmake --build --preset "$CMAKE_PRESET" --config "$BUILD_TYPE" -j$(nproc)
       - name: Run tests
         run: |
           ctest --preset "$CMAKE_PRESET" --build-config "$BUILD_TYPE" --extra-verbose --output-on-failure
