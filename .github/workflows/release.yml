@@ -47,7 +47,6 @@ jobs:
           mv FjordLauncher-*.AppImage.zsync/FjordLauncher-*-x86_64.AppImage.zsync FjordLauncher-Linux-x86_64.AppImage.zsync
           mv FjordLauncher-*.AppImage/FjordLauncher-*-aarch64.AppImage FjordLauncher-Linux-aarch64.AppImage
           mv FjordLauncher-*.AppImage.zsync/FjordLauncher-*-aarch64.AppImage.zsync FjordLauncher-Linux-aarch64.AppImage.zsync
-          mv FjordLauncher-macOS*/FjordLauncher.zip FjordLauncher-macOS-${{ env.VERSION }}.zip
 
           tar --exclude='.git' -czf FjordLauncher-${{ env.VERSION }}.tar.gz FjordLauncher-${{ env.VERSION }}
 
