@@ -14,9 +14,20 @@ Fjord Launcher ReUnlocked is a **fork** of Fjord Launcher Unlocked, which is a f
 
 **Do not** open an issue in the Prism Launcher repo, and **do not** ask about Fjord Launcher in the Prism Launcher Discord server. Instead, ask in #fjord-launcher in our [Matrix space](https://matrix.to/#/#unmojang:matrix.org), or [open an issue](https://github.com/Cfauto28/FjordLauncherReUnlocked/issues), in this repository.
 
+## Install
+
+### Windows
+
+You can get installers or portable builds from the [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest) and from the [actions workflows](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml), MSVC builds should be more stable than MinGW builds, but there's no real difference.
+
+### Linux
+
+Appimages and Protable tarballs are available in [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest) and from the [actions workflows](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml)
+
 ## Building
 
 To build the launcher yourself, follow the [instructions on the Prism Launcher website](https://prismlauncher.org/wiki/development/build-instructions), but clone this repo instead.
+This is required for use on macOS
 
 ## Notes
 
