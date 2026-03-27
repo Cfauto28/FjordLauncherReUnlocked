@@ -16,14 +16,19 @@ Fjord Launcher ReUnlocked is a **fork** of Fjord Launcher Unlocked, which is a f
 
 ## Install
 
-### Windows
+### Releases (More stable)
 
-You can get portable builds from the [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest) and from the [actions workflows](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml), MSVC builds should be more stable than MinGW builds and smaller, but there's no real difference.
+#### Windows
 
-### Linux
+You can get portable builds from the [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest), MSVC builds should be more stable  and smaller than MinGW builds, but there's no real difference.
 
-You can get portable builds are available in [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest) and from the [actions workflows](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml)
+#### Linux
 
+You can get portable builds are available in [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest)
+
+### Nightlys (More Features)
+
+You can get the builds from either the [actions workflow](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml) (Requires a Github account) or [nightlys.link](https://nightly.link/Cfauto28/FjordLauncherReUnlocked/workflows/build/develop?preview)
 
 ## Building
 
