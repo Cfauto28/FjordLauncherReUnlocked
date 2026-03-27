@@ -28,7 +28,7 @@ You can get portable builds are available in [releases section](https://github.c
 
 ### Nightlys (More Features)
 
-You can get the builds from either the [actions workflow](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml) (Requires a Github account) or [nightlys.link](https://nightly.link/Cfauto28/FjordLauncherReUnlocked/workflows/build/develop?preview)
+You can get the builds from either the [actions workflow](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml) (Requires a Github account) or [nightly.link](https://nightly.link/Cfauto28/FjordLauncherReUnlocked/workflows/build/develop?preview)
 
 ## Building
 
