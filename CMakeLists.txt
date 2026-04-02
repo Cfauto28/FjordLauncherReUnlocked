@@ -138,7 +138,6 @@ option(ENABLE_LTO "Enable Link Time Optimization" on)
 if(ENABLE_LTO)
     include(CheckIPOSupported)
     check_ipo_supported(RESULT ipo_supported OUTPUT ipo_error)
-
     if(ipo_supported)
         set(CMAKE_INTERPROCEDURAL_OPTIMIZATION_RELEASE TRUE)
         set(CMAKE_INTERPROCEDURAL_OPTIMIZATION_MINSIZEREL TRUE)
@@ -179,6 +178,15 @@ set(Launcher_VERSION_NAME4_COMMA "${Launcher_VERSION_MAJOR},${Launcher_VERSION_M
 
 # Build platform.
 set(Launcher_BUILD_PLATFORM "unknown" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
+if (UNIX)
+    set(Launcher_BUILD_PLATFORM "Generic Unix" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
+elseif (APPLE)
+    set(Launcher_BUILD_PLATFORM "macOS" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
+elseif (WIN32)
+    set(Launcher_BUILD_PLATFORM "Windows" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
+elseif (LINUX)
+    set(Launcher_BUILD_PLATFORM "Generic Linux" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
+endif()
 
 # Github repo URL with releases for updater
 set(Launcher_UPDATER_GITHUB_REPO "https://github.com/Cfauto28/FjordLauncherReUnlocked" CACHE STRING "Base github URL for the updater.")
