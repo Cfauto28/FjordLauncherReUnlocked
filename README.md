@@ -27,14 +27,13 @@ You can get portable builds from the [releases section](https://github.com/Cfaut
 You can get portable builds are available in [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest)
 
 
-### Nightlys (More Features and macOS support)
+### Nightlys (More Features)
 
 You can get the builds from either the [actions workflow](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml) (Requires a Github account) or [nightly.link](https://nightly.link/Cfauto28/FjordLauncherReUnlocked/workflows/build/develop?preview)
 
 ## Building
 
-To build the launcher yourself, follow the [instructions on the Prism Launcher website](https://prismlauncher.org/wiki/development/build-instructions), but clone this repo instead.
-This is required for use on macOS
+To build the launcher yourself (required for macOS support), follow the [instructions on the Prism Launcher website](https://prismlauncher.org/wiki/development/build-instructions), but clone this repo instead.
 
 ## Notes
 
