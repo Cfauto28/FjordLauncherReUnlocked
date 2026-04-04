@@ -1,6 +1,6 @@
 # Fjord Launcher ReUnlocked Nix Packaging
 
-### Installing the package directly
+## Installing the package directly
 
 After adding `github:Cfauto28/FjordLauncherReUnlocked` to your flake inputs, you can access the flake's `packages` output.
 
@@ -40,7 +40,7 @@ Example:
 }
 ```
 
-### Using the overlay
+## Using the overlay
 
 Alternatively, if you don't want to use our `packages` output, you can add our overlay to your nixpkgs instance.
 This will ensure Fjord is built with your system's packages.
@@ -87,7 +87,7 @@ Example:
 }
 ```
 
-### Installing the package ad-hoc (`nix shell`, `nix run`, etc.)
+## Installing the package ad-hoc (`nix shell`, `nix run`, etc.)
 
 You can simply call the default package of this flake.
 
@@ -101,7 +101,7 @@ nix shell github:Cfauto28/FjordLauncherReUnlocked
 nix profile install github:Cfauto28/FjordLauncherReUnlocked
 ```
 
-### Installing the package directly (`fetchTarball`)
+## Installing the package directly (`fetchTarball`)
 
 We use flake-compat to allow using this Flake on a system that doesn't use flakes.
 
@@ -160,7 +160,7 @@ This repository offers the following packages:
 - `fjordlauncherreunlocked` - The preferred build, wrapped with everything necessary to run the launcher and Minecraft
 - `fjordlauncherreunlocked-unwrapped` - A minimal build that allows for advanced customization of the launcher's runtime environment
 
-### Customizing wrapped packages
+## Customizing wrapped packages
 
 The wrapped package (`fjordlauncher`) offers some build parameters to further customize the launcher's environment.
 
