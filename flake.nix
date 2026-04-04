@@ -47,7 +47,7 @@
                   llvm.clang-tools
                   markdownlint-cli
 #                  nixfmt-rfc-style
-                  statix
+#                  statix
                 ];
               }
               ''
