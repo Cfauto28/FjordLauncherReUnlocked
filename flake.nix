@@ -46,10 +46,10 @@
                   deadnix
                   llvm.clang-tools
                   markdownlint-cli
-#                  nixfmt-rfc-style
-#                  statix
+                  nixfmt-rfc-style
+                  statix
                 ];
-              }
+             }
               ''
                 cd ${self}
 
@@ -61,9 +61,6 @@
 
                 echo "Running markdownlint..."
                 markdownlint --dot .
-
-                echo "Running nixfmt..."
-                find -type f -name '*.nix' -exec nixfmt --check {} +
 
                 echo "Running statix"
                 statix check .
