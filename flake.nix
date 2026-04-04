@@ -46,7 +46,7 @@
                   deadnix
                   llvm.clang-tools
                   markdownlint-cli
-                  nixfmt-rfc-style
+#                  nixfmt-rfc-style
                   statix
                 ];
               }
