@@ -6,7 +6,6 @@ Fjord Launcher ReUnlocked is a soft **fork** of Fjord Launcher Unlocked, which i
 
 - [Support for alternative auth servers](doc/alternative-auth-servers.md)
 
-
 See [doc/alternative-auth-servers.md](doc/alternative-auth-servers.md) for a non-exhaustive list of alternative authentication servers.
 
 ## Having a problem with the launcher?
@@ -35,12 +34,9 @@ nix run github:Cfauto28/FjordLauncherReUnlocked
 
 See [nix/README.md](nix/README.md) for details.
 
-
-
 ### Nightlys (More Features)
 
 You can get the builds from either the [actions workflow](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml) (Requires a Github account) or [nightly.link](https://nightly.link/Cfauto28/FjordLauncherReUnlocked/workflows/build/develop?preview)
-
 
 ## Building
 
