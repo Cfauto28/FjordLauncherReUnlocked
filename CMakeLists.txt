@@ -180,7 +180,7 @@ set(Launcher_VERSION_NAME4_COMMA "${Launcher_VERSION_MAJOR},${Launcher_VERSION_M
 set(Launcher_BUILD_PLATFORM "unknown" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
 if (UNIX)
     set(Launcher_BUILD_PLATFORM "Generic Unix" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
-elseif (APPLE)
+elseif (UNIX AND APPLE)
     set(Launcher_BUILD_PLATFORM "macOS" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
 elseif (WIN32)
     set(Launcher_BUILD_PLATFORM "Windows" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
