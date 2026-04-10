@@ -93,7 +93,7 @@ if(CMAKE_GENERATOR STREQUAL "Unix Makefiles" OR CMAKE_GENERATOR MATCHES "^Ninja"
     set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 endif()
 
-option(USE_CLANG_TIDY "Enable the use of clang-tidy during compilation" ON)
+option(USE_CLANG_TIDY "Enable the use of clang-tidy during compilation" OFF)
 
 if(USE_CLANG_TIDY)
     find_program(CLANG_TIDY clang-tidy OPTIONAL)
