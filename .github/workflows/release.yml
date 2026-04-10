@@ -1,9 +1,6 @@
 name: Build Application and Make Release
 
 on:
-  push:
-    tags:
-      - "*"
   workflow_dispatch:
 
 permissions: {}
@@ -51,11 +48,6 @@ jobs:
           mv FjordLauncher-*.AppImage.zsync/FjordLauncher-*-x86_64.AppImage.zsync FjordLauncher-Linux-x86_64.AppImage.zsync
           mv FjordLauncher-*.AppImage/FjordLauncher-*-aarch64.AppImage FjordLauncher-Linux-aarch64.AppImage
           mv FjordLauncher-*.AppImage.zsync/FjordLauncher-*-aarch64.AppImage.zsync FjordLauncher-Linux-aarch64.AppImage.zsync
-<<<<<<< HEAD
-=======
-          mv FjordLauncher-macOS*/FjordLauncher.zip FjordLauncher-macOS-${{ env.VERSION }}.zip
-          mv FjordLauncher-macOS*/FjordLauncher.dmg FjordLauncher-macOS-${{ env.VERSION }}.dmg
->>>>>>> 2907c217fb1bb3ed20e6b51eecd7acdf86490846
 
           tar --exclude='.git' -czf FjordLauncher-${{ env.VERSION }}.tar.gz FjordLauncher-${{ env.VERSION }}
 
@@ -95,8 +87,6 @@ jobs:
             test -n "${INST}" || zip -r -9 "../${NAME}-${{ env.VERSION }}.zip" *
             cd ..
           done
-<<<<<<< HEAD
-=======
 
       - name: Create release
         id: create_release
@@ -127,7 +117,4 @@ jobs:
             FjordLauncher-Windows-MSVC-${{ env.VERSION }}.zip
             FjordLauncher-Windows-MSVC-Portable-${{ env.VERSION }}.zip
             FjordLauncher-Windows-MSVC-Setup-${{ env.VERSION }}.exe
-            FjordLauncher-macOS-${{ env.VERSION }}.zip
-            FjordLauncher-macOS-${{ env.VERSION }}.dmg
-            FjordLauncher-${{ env.VERSION }}.tar.gz
->>>>>>> 2907c217fb1bb3ed20e6b51eecd7acdf86490846
+
