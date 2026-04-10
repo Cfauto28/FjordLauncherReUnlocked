@@ -65,7 +65,7 @@ Available under `GPL-3.0-only` (with classpath exception), sublicensed from its 
 
 libnbt++ is a free C++ library for Minecraft's file format Named Binary Tag (NBT). It can read and write compressed and uncompressed NBT files and provides a code interface for working with NBT data.
 
-See [github repo](https://github.com/ljfa-ag/libnbtplusplus).
+See [github repo](https://github.com/PrismLauncher/libnbtplusplus).
 
 Available either under LGPL version 3 or later.
 

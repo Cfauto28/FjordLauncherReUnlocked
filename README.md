@@ -1,4 +1,4 @@
-# <img src="./program_info/org.unmojang.FjordLauncher.svg" alt="Fjord Launcher logo" width="96"/> Fjord Launcher ReUnlocked
+# <img src="./program_info/org.Cfauto28.FjordLauncherReUnlocked.svg" alt="Fjord Launcher logo" width="96"/> Fjord Launcher ReUnlocked
 
 Fjord Launcher ReUnlocked is a soft **fork** of Fjord Launcher Unlocked, which is a soft fork of Fjord Launcher, which is a soft fork of [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher). It is **not** endorsed by nor affiliated with Fjord Launcher or Prism Launcher.
 
