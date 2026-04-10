@@ -55,6 +55,7 @@ on:
       - ".github/workflows/build.yml"
       - ".github/actions/package/**"
       - ".github/actions/setup-dependencies/**"
+
   workflow_call:
     inputs:
       build-type:
@@ -71,6 +72,8 @@ on:
         type: string
         default: Debug
 
+permissions: {}
+
 jobs:
   build:
     name: Build (${{ matrix.artifact-name }})
@@ -78,6 +81,7 @@ jobs:
     environment: ${{ inputs.environment || '' }}
 
     permissions:
+      contents: read
       # Required for Azure Trusted Signing
       id-token: write
       # Required for vcpkg binary cache
@@ -175,7 +179,7 @@ jobs:
           cmake --build --preset "$CMAKE_PRESET" --config "$BUILD_TYPE" -j$(nproc)
       - name: Run tests
         run: |
-          ctest --preset "$CMAKE_PRESET" --build-config "$BUILD_TYPE" --extra-verbose --output-on-failure
+          ctest --preset "$CMAKE_PRESET" --build-config "$BUILD_TYPE"
 
       ##
       # PACKAGE

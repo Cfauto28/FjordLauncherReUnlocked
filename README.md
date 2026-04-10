@@ -1,14 +1,13 @@
 # <img src="./program_info/org.unmojang.FjordLauncher.svg" alt="Fjord Launcher logo" width="96"/> Fjord Launcher ReUnlocked
 
-Fjord Launcher ReUnlocked is a **fork** of Fjord Launcher Unlocked, which is a fork of Fjord Launcher, which is a fork of Prism Launcher. It is **not** endorsed by nor affiliated with Fjord Launcher or Prism Launcher.
-
-## Advantages of this fork over Prism Launcher
+Fjord Launcher ReUnlocked is a soft **fork** of Fjord Launcher Unlocked, which is a soft fork of Fjord Launcher, which is a soft fork of [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher). It is **not** endorsed by nor affiliated with Fjord Launcher or Prism Launcher.
 
 - No DRM
 
 - [Support for alternative auth servers](doc/alternative-auth-servers.md)
 
-- Ability to download FTB modpacks from within the launcher
+
+See [doc/alternative-auth-servers.md](doc/alternative-auth-servers.md) for a non-exhaustive list of alternative authentication servers.
 
 ## Having a problem with the launcher?
 
@@ -26,9 +25,22 @@ You can get portable builds from the [releases section](https://github.com/Cfaut
 
 You can get portable builds are available in [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest)
 
+#### Nix
+
+This repository contains a Nix flake:
+
+```Shell
+nix run github:Cfauto28/FjordLauncherReUnlocked
+```
+
+See [nix/README.md](nix/README.md) for details.
+
+
+
 ### Nightlys (More Features)
 
 You can get the builds from either the [actions workflow](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml) (Requires a Github account) or [nightly.link](https://nightly.link/Cfauto28/FjordLauncherReUnlocked/workflows/build/develop?preview)
+
 
 ## Building
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>@Launcher_AppID@</id>
+  <name>Fjord Launcher ReUnlocked</name>
+  <summary>Prism Launcher fork with support for alternative auth servers</summary>
+  <developer id="org.Cfauto28">
+    <name>Fjord LauncherReUnlocked Contributors</name>
+  </developer>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <description>
+    <p>Prism Launcher fork with support for alternative auth servers.</p>
+  </description>
+  <releases>
+    <release version="@Launcher_VERSION_NAME@" date="@Launcher_BUILD_TIMESTAMP@"></release>
+  </releases>
+  <url type="homepage">https://github.com/unmojang/FjordLauncher</url>
+  <url type="bugtracker">https://github.com/unmojang/FjordLauncher/issues</url>
+  <url type="contact">https://matrix.to/#/#unmojang:matrix.org</url>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-fantasy">moderate</content_attribute>
+    <content_attribute id="social-chat">intense</content_attribute>
+  </content_rating>
+  <launchable type="desktop-id">@Launcher_AppID@.desktop</launchable>
+</component>
