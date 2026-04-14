@@ -14,16 +14,6 @@ See [doc/alternative-auth-servers.md](doc/alternative-auth-servers.md) for a non
 
 ## Install
 
-### Releases (More stable)
-
-#### Windows
-
-You can get portable builds from the [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest), MSVC builds should be more stable  and smaller than MinGW builds, but there's no real difference.
-
-#### Linux
-
-You can get portable builds are available in [releases section](https://github.com/Cfauto28/FjordLauncherReUnlocked/releases/latest)
-
 #### Nix
 
 This repository contains a Nix flake:
@@ -34,7 +24,7 @@ nix run github:Cfauto28/FjordLauncherReUnlocked
 
 See [nix/README.md](nix/README.md) for details.
 
-### Nightlys (More Features)
+### Nightlys
 
 You can get the builds from either the [actions workflow](https://github.com/Cfauto28/FjordLauncherReUnlocked/actions/workflows/build.yml) (Requires a Github account) or [nightly.link](https://nightly.link/Cfauto28/FjordLauncherReUnlocked/workflows/build/develop?preview)
 
