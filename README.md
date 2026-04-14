@@ -14,7 +14,7 @@ See [doc/alternative-auth-servers.md](doc/alternative-auth-servers.md) for a non
 
 ## Install
 
-#### Nix
+### Nix
 
 This repository contains a Nix flake:
 
