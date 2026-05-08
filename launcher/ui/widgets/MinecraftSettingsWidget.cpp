@@ -217,7 +217,7 @@ void MinecraftSettingsWidget::loadSettings()
     m_ui->lineEditOpenALPath->setPlaceholderText(tr("Path to %1 library file").arg(BuildConfig.OPENAL_LIBRARY_NAME));
 #endif
     m_ui->useNativeJemallocCheck->setChecked(settings->get("UseNativeJemalloc").toBool());
-    m_ui->lineEditJemallocPath->setText(settings->get("CustomJemallocPath").toString());
+    m_ui->lineEditJemallocPath->setText(settings->get("CustomJemallocPath").toString().trimmed());
 #ifdef Q_OS_LINUX
     m_ui->lineEditJemallocPath->setPlaceholderText(APPLICATION->m_detectedJemallocPath);
 #else
