@@ -36,6 +36,7 @@
  */
 
 #pragma once
+#include <qhashfunctions.h>
 #include <QList>
 #include <QString>
 
@@ -167,6 +168,7 @@ class Config {
 
     QString GLFW_LIBRARY_NAME;
     QString OPENAL_LIBRARY_NAME;
+    QString JEMALLOC_LIBRARY_NAME;
 
     QString BUG_TRACKER_URL;
     QString TRANSLATIONS_URL;

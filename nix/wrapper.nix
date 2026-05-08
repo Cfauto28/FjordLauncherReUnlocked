@@ -29,6 +29,7 @@
   udev,
   vulkan-loader,
   xrandr,
+  jemalloc,
 
   additionalLibs ? [ ],
   additionalPrograms ? [ ],
@@ -83,6 +84,7 @@ symlinkJoin {
         ## native versions
         glfw3-minecraft
         openal
+        jemalloc
 
         ## openal
         alsa-lib
