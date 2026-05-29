@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>653</width>
-    <height>600</height>
+    <height>624</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
@@ -59,7 +59,7 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>607</width>
+            <width>550</width>
             <height>1218</height>
            </rect>
           </property>
@@ -612,7 +612,7 @@ It is most likely you will need to change the path - please refer to the mod's w
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>607</width>
+            <width>623</width>
             <height>508</height>
            </rect>
           </property>
