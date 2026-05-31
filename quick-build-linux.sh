@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-cmake --preset linux -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+cmake --preset linux
 
 cmake --build --preset linux --config Release -j$(nproc)
 
