@@ -107,14 +107,11 @@ jobs:
             FjordLauncher-Linux-aarch64-Qt6-Portable-${{ env.VERSION }}.tar.gz
             FjordLauncher-Windows-MinGW-w64-${{ env.VERSION }}.zip
             FjordLauncher-Windows-MinGW-w64-Portable-${{ env.VERSION }}.zip
-            FjordLauncher-Windows-MinGW-w64-Setup-${{ env.VERSION }}.exe
             FjordLauncher-Windows-MinGW-arm64-${{ env.VERSION }}.zip
             FjordLauncher-Windows-MinGW-arm64-Portable-${{ env.VERSION }}.zip
-            FjordLauncher-Windows-MinGW-arm64-Setup-${{ env.VERSION }}.exe
             FjordLauncher-Windows-MSVC-arm64-${{ env.VERSION }}.zip
             FjordLauncher-Windows-MSVC-arm64-Portable-${{ env.VERSION }}.zip
             FjordLauncher-Windows-MSVC-arm64-Setup-${{ env.VERSION }}.exe
             FjordLauncher-Windows-MSVC-${{ env.VERSION }}.zip
             FjordLauncher-Windows-MSVC-Portable-${{ env.VERSION }}.zip
-            FjordLauncher-Windows-MSVC-Setup-${{ env.VERSION }}.exe
 
