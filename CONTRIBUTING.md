@@ -27,10 +27,10 @@ See [Signing your work](#signing-your-work) for more information.
 
 ### Attribution
 
-When AI tools contribute to development, proper attribution helps track the evolving role of AI in the development process. Contributions should include an Assisted-by tag in the commit message with the following format:
+When AI tools contribute to development, proper attribution helps track the evolving role of AI in the development process. Contributions should include an Coauthored-by tag in the commit message with the following format:
 
 ```text
-Assisted-by: AGENT_NAME:MODEL_VERSION [TOOL1] [TOOL2]
+Coauthored-by: AGENT_NAME:MODEL_VERSION [TOOL1] [TOOL2]
 ```
 
 Where:
@@ -44,7 +44,7 @@ Basic development tools (git, gcc, make, editors) should not be listed.
 Example:
 
 ```text
-Assisted-by: Claude:claude-3-opus coccinelle sparse
+Coauthored-by: Claude:claude-3-opus coccinelle sparse
 ```
 
 ## Code style
